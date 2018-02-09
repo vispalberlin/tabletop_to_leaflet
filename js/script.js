@@ -8,7 +8,7 @@ if (window.location.hash === "#cluster") {
 }
 
 // Google Docs spreadsheet key
-var spreadsheet_key = '0As3JvOeYDO50dF9NWWRiaTdqNmdKQ1lCY3dpdDhZU3c';
+var spreadsheet_key = '1Ry4pFPpGFyFRJnXemI7HbIKUx8NtEPOl-Gu_gwsUuco';
 
 // Name of lat, long columns in Google spreadsheet
 var lat_column = 'latitude';
@@ -29,7 +29,7 @@ var global_markers_data;
 function generatePopup(content){
     // Generate header
 	var popup_header = "<h4>" + toTitleCase(content['brewery']) + "</h4>"
-	
+
 	// Generate content
 	var popup_content = '<table class="popup_table table">';
 	popup_content += '<tr><td><strong>Address:</strong></td>';
