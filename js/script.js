@@ -28,7 +28,7 @@ var global_markers_data;
 // Function that creates our popup
 function generatePopup(content){
     // Generate header
-	var popup_header = "<h4>" + toTitleCase(content['brewery']) + "</h4>"
+	var popup_header = "<h4>" + toTitleCase(content['museum']) + "</h4>"
 
 	// Generate content
 	var popup_content = '<table class="popup_table table">';
